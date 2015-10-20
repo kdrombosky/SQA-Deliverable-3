@@ -2,7 +2,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.junit.Before;
-import org.junit.After;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 //import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -20,11 +19,6 @@ public class XKCDTitleTest {
 	public void setUp() throws Exception{
 		driver.get("http://www.xkcd.com");
 	}
-	
-	//@After
-	//public void tearDown() throws Exception{
-//		driver.close();
-	//}
 	
 	// Given that I am on the main page, when I view the title,
 	// I see that the word “xkcd” appears.
