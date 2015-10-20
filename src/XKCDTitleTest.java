@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 /*As an xkcd user, I would like to see a comic, the web page title, 
  * and other identifying information on the main page. 
