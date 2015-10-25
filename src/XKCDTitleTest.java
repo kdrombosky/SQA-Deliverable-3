@@ -6,7 +6,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /*As an xkcd user, I would like to see a comic, the web page title, 
- * and other identifying information on the main page. 
+ * and other identifying information on the main page so that I am sure
+ * I am on the correct site and that I can enjoy its features. 
  */
 
 

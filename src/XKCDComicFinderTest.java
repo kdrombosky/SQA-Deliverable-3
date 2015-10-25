@@ -8,7 +8,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 /*
- * As an xkcd user, I would like to be able to find other comics (aside from the initial comic) easily. 
+ * As an xkcd user, I would like to be able to find other comics (aside from the initial comic) easily
+ * so that I can fully satiate my desire for witty humor in a constrained time budget. 
  */
 
 
