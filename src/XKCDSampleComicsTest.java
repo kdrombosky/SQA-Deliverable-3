@@ -4,6 +4,7 @@ import org.junit.Test;
 import org.junit.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 
 /*As an xkcd user, I would like to easily navigate to some of the more
 * popular comics from the xkcd main page so that I can show non-users what
@@ -24,7 +25,7 @@ public class XKCDSampleComicsTest {
 	//in the bottom box, I am taken to http://xkcd.com/150/ 
 	@Test
 	public void testSampleComic1() {
-		String url = "http://xkcd.com/150/";
+		String url = "http://www.xkcd.com/150/";
 		builder.moveToElement(driver.findElement(By.id("comicmap")), 50, 50).click().build().perform();
 		String curr = driver.getCurrentUrl();
 		assertEquals(url, curr);
@@ -34,7 +35,7 @@ public class XKCDSampleComicsTest {
 	//in the bottom box, I am taken to http://xkcd.com/730/
 	@Test
 	public void testSampleComic2() {
-		String url = "http://xkcd.com/730/";
+		String url = "http://www.xkcd.com/730/";
 		builder.moveToElement(driver.findElement(By.id("comicmap")), 154, 50).click().build().perform();
 		String curr = driver.getCurrentUrl();
 		assertEquals(url, curr);
@@ -44,7 +45,7 @@ public class XKCDSampleComicsTest {
 	//in the bottom box, I am taken to http://xkcd.com/162/ 
 	@Test
 	public void testSampleComic3() {
-		String url = "http://xkcd.com/162/";
+		String url = "http://www.xkcd.com/162/";
 		builder.moveToElement(driver.findElement(By.id("comicmap")), 258, 50).click().build().perform();
 		String curr = driver.getCurrentUrl();
 		assertEquals(url, curr);
@@ -54,7 +55,7 @@ public class XKCDSampleComicsTest {
 	//in the bottom box, I am taken to http://xkcd.com/688/ 
 	@Test
 	public void testSampleComic4() {
-		String url = "http://xkcd.com/688/";
+		String url = "http://www.xkcd.com/688/";
 		builder.moveToElement(driver.findElement(By.id("comicmap")), 362, 50).click().build().perform();
 		String curr = driver.getCurrentUrl();
 		assertEquals(url, curr);
@@ -64,7 +65,7 @@ public class XKCDSampleComicsTest {
 	//in the bottom box, I am taken to http://xkcd.com/556/ 
 	@Test
 	public void testSampleComic5() {
-		String url = "http://xkcd.com/556/";
+		String url = "http://www.xkcd.com/556/";
 		builder.moveToElement(driver.findElement(By.id("comicmap")), 470, 50).click().build().perform();
 		String curr = driver.getCurrentUrl();
 		assertEquals(url, curr);
